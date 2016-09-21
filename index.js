@@ -1,4 +1,6 @@
-import userModel = require('./user-model');
+'use strict';
+
+var userModel = require('./user-model');
 
 var user = userModel.buildUser();
 
