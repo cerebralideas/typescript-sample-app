@@ -1,19 +1,8 @@
-import React = require('react');
-import ReactDOM = require('react-dom');
-
 import userModel = require('./user-model');
-import UserView = require('./user-view');
 
-const User = UserView.User;
+var user = userModel.buildUser();
 
-function App() {
-	var user = userModel.buildUser();
-	return <User { ...user } />;
-}
-
-ReactDOM.render(
-	<App />,
-	document.getElementById('root')
-);
-
-
+console.log('Full name: ' + user.fullName);
+console.log('Title: ' + user.title);
+console.log('Age: ' + user.age);
+console.log('Is programmer: ' + user.isProgrammer);
