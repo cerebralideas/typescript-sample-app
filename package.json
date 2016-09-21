@@ -1,0 +1,28 @@
+{
+  "name": "app-ts",
+  "version": "1.0.0",
+  "description": "Does app stuff",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack ./index.js bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "info@cerebralideas.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2"
+  },
+  "globalDevDependencies": {
+    "typings": "^1.3.3"
+  },
+  "dependencies": {
+    "math-ts": "file:///Users/jlowery/side-projects/math-ts",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "string-ts": "file:///Users/jlowery/side-projects/string-ts",
+    "user-ts": "file:///Users/jlowery/side-projects/user-ts"
+  }
+}
