@@ -19,10 +19,10 @@
     "typings": "^1.3.3"
   },
   "dependencies": {
-    "math-ts": "file:///Users/jlowery/side-projects/math-ts",
+    "math-ts": "../math-ts",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "string-ts": "file:///Users/jlowery/side-projects/string-ts",
-    "user-ts": "file:///Users/jlowery/side-projects/user-ts"
+    "string-ts": "../string-ts",
+    "user-ts": "../user-ts"
   }
 }
