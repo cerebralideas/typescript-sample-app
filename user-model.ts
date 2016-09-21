@@ -8,7 +8,7 @@ export function buildUser() {
 
 	// Build additional user data
 	var userMeta = {
-		fullName: stringUtils.formatName(user.firstName, user.lastName, { order: 'first-first' }),
+		fullName: stringUtils.formatName(user.firstName, user.lastName, { order: 'last-first' }),
 		age: mathUtils.calcAge(user.birthdate),
 		isProgrammer: user.knowFor.indexOf('computer programming') !== -1
 	};
